@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ff7e5f, #feb47b);
+            color: white;
+        }
+        header, footer {
+            background: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            margin: 10px;
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Media Gallery</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="bibliography.html">Bibliography</a></li>
+                <li><a href="gallery.html">Media Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Prabhas in Movies</h2>
+        <div class="gallery">
+            <img src="images/baahubali1.jpg" alt="Baahubali: The Beginning">
+            <img src="images/baahubali2.jpg" alt="Baahubali: The Conclusion">
+            <img src="images/saaho.jpg" alt="Saaho">
+            <img src="images/mirchi.jpg" alt="Mirchi">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Prabhas Portfolio</p>
+    </footer>
+</body>
+</html>
